@@ -1,48 +1,26 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
-<html lang="pt-br">
-=======
 <html lang="en">
->>>>>>> aba437aa9e62734266d15b5ec40c6587a69be19a
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
-    <title>Experimento de Cosumo de API REST</title>
-=======
     <title>Document</title>
->>>>>>> aba437aa9e62734266d15b5ec40c6587a69be19a
 </head>
 
 <body>
 
     <div id="content"></div>
 
-<<<<<<< HEAD
-=======
-
->>>>>>> aba437aa9e62734266d15b5ec40c6587a69be19a
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.2/axios.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
 
-<<<<<<< HEAD
-        // URL base da API.
-        const apiBase = 'https://blablablablablablablabla.firebaseio.com/'
-=======
         apiBase = 'https://experimento-7499a-default-rtdb.firebaseio.com/';
->>>>>>> aba437aa9e62734266d15b5ec40c6587a69be19a
 
         // Usando a biblioteca Axios (https://github.com/axios/axios)
         axios.get(apiBase + 'item/.json')
             .then((response) => { // Sucesso!
-<<<<<<< HEAD
-                console.log(response.data['20d86b8bba3c72e4']['name']) // Exemplo.
-                content.innerHTML = response.data['20d86b8bba3c72e4']['name'] // Exemplo.
-=======
                 console.log(response)
->>>>>>> aba437aa9e62734266d15b5ec40c6587a69be19a
             })
             .catch((error) => { // Falha!
                 console.log(error)
@@ -55,10 +33,6 @@
         $.get(apiBase + 'item/.json')
             .done((response) => { // Sucesso!
                 console.log(response)
-<<<<<<< HEAD
-                content.innerHTML = response['20d86b8bba3c72e4']['name']
-=======
->>>>>>> aba437aa9e62734266d15b5ec40c6587a69be19a
             })
             .fail((error) => { // Falha!
                 console.log(error)
