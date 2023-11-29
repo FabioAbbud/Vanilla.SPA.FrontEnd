@@ -68,7 +68,11 @@ function saveData(data) {
 
     // Executa o método POST na URL da API, passando os dados como parâmetro.
     $.post(
+<<<<<<< HEAD
         'https://frontendeiros2-default-rtdb.firebaseio.com/contact/.json',
+=======
+        'https://experimento-7499a-default-rtdb.firebaseio.com/contact/.json',
+>>>>>>> aba437aa9e62734266d15b5ec40c6587a69be19a
         JSON.stringify(data)
     )
         .done((certo) => {
