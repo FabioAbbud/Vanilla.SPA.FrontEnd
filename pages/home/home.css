@@ -1,0 +1,5 @@
+.items, .owner {
+    color: steelblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
