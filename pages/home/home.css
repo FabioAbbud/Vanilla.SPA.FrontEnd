@@ -3,3 +3,7 @@
     text-decoration: underline;
     cursor: pointer;
 }
+
+.items:hover, .owner:hover {
+    color: orangered;
+}
